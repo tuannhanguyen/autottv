@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<item key="selection" value="Click"/>
+		<list key="findhistory">
+			<item value="click"/>
+			<item value="/TTVAuto/downl"/>
+			<item value="comman"/>
+			<item value="endtes"/>
+			<item value="end"/>
+			<item value="to/downl"/>
+			<item value="&#x09;&#x09;&#x09;&#x09;File folder = new File(&quot;D:/working/ttv_tool/TTV_Automation/TTVAuto/downloads&quot;);"/>
+			<item value="orking/ttv_tool/TTV_Autom"/>
+			<item value="set_app_state_endtest"/>
+			<item value="daily_report_htA2iCJq5DLGJpxIS6AI_202304260000_202304262359"/>
+			<item value="endtest"/>
+			<item value="endsu"/>
+			<item value="End Suite print rep"/>
+			<item value="listOfFiles"/>
+			<item value="endTestSu"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1051"/>
+		<item key="DIALOG_Y_ORIGIN" value="441"/>
+		<item key="DIALOG_WIDTH" value="322"/>
+		<item key="DIALOG_HEIGHT" value="323"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

@@ -1,0 +1,158 @@
+<html>
+<HEAD>
+<style>
+.start_test{
+	font-size: 12pt
+}
+.start_lib{
+	color:Green;
+	font-size: 10pt
+}
+.start_act{
+	font-size: 8pt
+}
+.test_passed{
+	color:Blue;
+	font-size: 12pt
+}
+.test_failed{
+	color:Red;
+	font-size: 12pt
+}
+.knownfailed{
+	color:magenta;
+	font-size: 10pt
+}
+.lib_passed{
+	color:Blue;
+	font-size: 10pt
+}
+.lib_failed{
+	color:Red;
+	font-size: 10pt
+}
+.lib_warned{
+	color:magenta;
+	font-size: 10pt
+}
+.act_passed{
+	color:Blue;
+	font-size: 8pt
+}
+.act_failed{
+	color:magenta;
+	font-size: 8pt
+}
+</style>
+</HEAD>
+<body>
+
+
+<center><h4> ****** ****** ****** ****** ****** ******</h4></center>
+<center><h2> Running Testsuite (detail log) </h2></center><center><h3> Start 2023/05/07 - 22:45:33</h3></center>
+<center><table border=1><tr><td bgcolor=#C0C0C0 style="width:80px"><b>Result</b></td> 
+<td bgcolor=#C0C0C0><b>Description</b></td></tr>
+<tr><td COLSPAN=3><a id="1683474333519" name="1683474333519"></a><span class="start_test"><b> --- 2023/05/07 - 22:45:33 : Start test login.login successful to export csv</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="start_lib"><b> -------- 2023/05/07 - 22:45:33 : Starting test library core.launch page('https://bot.staging.c-plus.chat')</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="start_act"><b> ------ ------ 2023/05/07 - 22:45:33 : Start action - openbrowser - input = | https://bot.staging.c-plus.chat |</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="act_passed"><b> ------ ------ 2023/05/07 - 22:45:40 : Action 'openbrowser' passed</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="lib_passed"><b> -------- 2023/05/07 - 22:45:40 : Test Library 'core.launch page' run passed</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="start_lib"><b> -------- 2023/05/07 - 22:45:40 : Starting test library login.login to se system('admin@cplus.cloud'', 'Abcd@1234')</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="start_act"><b> ------ ------ 2023/05/07 - 22:45:40 : Start action - settext - with object 'login.txtemail' input = | admin@cplus.cloud |</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="act_passed"><b> ------ ------ 2023/05/07 - 22:45:42 : Set text 'admin@cplus.cloud' to object 'login.txtemail' passed</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="start_act"><b> ------ ------ 2023/05/07 - 22:45:42 : Start action - settext - with object 'login.txtpassword' input = | Abcd@1234 |</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="act_passed"><b> ------ ------ 2023/05/07 - 22:45:42 : Set text 'Abcd@1234' to object 'login.txtpassword' passed</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="start_act"><b> ------ ------ 2023/05/07 - 22:45:42 : Start action - click - with object 'login.btnlogin'</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="act_passed"><b> ------ ------ 2023/05/07 - 22:45:43 : Click object 'login.btnlogin' passed</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="lib_passed"><b> -------- 2023/05/07 - 22:45:43 : Test Library 'login.login to se system' run passed</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="start_lib"><b> -------- 2023/05/07 - 22:45:43 : Starting test library homepage.waiting for loading</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="start_act"><b> ------ ------ 2023/05/07 - 22:45:43 : Start action - checkexists - with object 'homepage.div_loading'</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="act_passed"><b> ------ ------ 2023/05/07 - 22:45:49 : Object 'homepage.div_loading' is exists</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="lib_passed"><b> -------- 2023/05/07 - 22:45:49 : Test Library 'homepage.waiting for loading' run passed</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="start_lib"><b> -------- 2023/05/07 - 22:45:49 : Starting test library homepage.select to search projects('AutomationDuy_4KQLWztuV5')</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="start_act"><b> ------ ------ 2023/05/07 - 22:45:49 : Start action - sleep - input = | 10 |</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="act_passed"><b> ------ ------ 2023/05/07 - 22:45:59 : Action 'sleep' passed</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="start_act"><b> ------ ------ 2023/05/07 - 22:45:59 : Start action - Click - with object 'homepage.div_search_projects'</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="act_passed"><b> ------ ------ 2023/05/07 - 22:46:01 : Click object 'homepage.div_search_projects' passed</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="start_act"><b> ------ ------ 2023/05/07 - 22:46:01 : Start action - strcat - input = | text: |AutomationDuy_4KQLWztuV5 | </b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="act_passed"><b> ------ ------ 2023/05/07 - 22:46:01 : Action 'strcat' passed, string cat = text:AutomationDuy_4KQLWztuV5</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="start_act"><b> ------ ------ 2023/05/07 - 22:46:01 : Start action - getDescendantsXPath - with object 'homepage.div_search_projects' input = | tagname:a |text:AutomationDuy_4KQLWztuV5 | </b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="act_passed"><b> ------ ------ 2023/05/07 - 22:46:16 : Found 1 items descendant of 'homepage.div_search_projects' </b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="start_act"><b> ------ ------ 2023/05/07 - 22:46:16 : Start action - click - input = | /html/body/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[2]/div[1]/div[119]/a[1] |</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="act_passed"><b> ------ ------ 2023/05/07 - 22:46:17 : Click object '/html/body/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[2]/div[1]/div[119]/a[1]' passed</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="lib_passed"><b> -------- 2023/05/07 - 22:46:17 : Test Library 'homepage.select to search projects' run passed</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="start_lib"><b> -------- 2023/05/07 - 22:46:17 : Starting test library homepage.click to menuwebchat</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="start_act"><b> ------ ------ 2023/05/07 - 22:46:17 : Start action - click - with object 'homepage.menuwebchat'</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="act_passed"><b> ------ ------ 2023/05/07 - 22:46:19 : Click object 'homepage.menuwebchat' passed</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="lib_passed"><b> -------- 2023/05/07 - 22:46:19 : Test Library 'homepage.click to menuwebchat' run passed</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="start_lib"><b> -------- 2023/05/07 - 22:46:19 : Starting test library homepage.click_menu_report</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="start_act"><b> ------ ------ 2023/05/07 - 22:46:19 : Start action - click - with object 'webchat.menu_report'</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="act_passed"><b> ------ ------ 2023/05/07 - 22:46:20 : Click object 'webchat.menu_report' passed</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="lib_passed"><b> -------- 2023/05/07 - 22:46:20 : Test Library 'homepage.click_menu_report' run passed</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="start_lib"><b> -------- 2023/05/07 - 22:46:20 : Starting test library homepage.click_btn_export_csv</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="start_act"><b> ------ ------ 2023/05/07 - 22:46:20 : Start action - click - with object 'webchat.btn_export'</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="act_passed"><b> ------ ------ 2023/05/07 - 22:46:21 : Click object 'webchat.btn_export' passed</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="start_act"><b> ------ ------ 2023/05/07 - 22:46:21 : Start action - click - with object 'webchat.btn_csv'</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="act_passed"><b> ------ ------ 2023/05/07 - 22:46:22 : Click object 'webchat.btn_csv' passed</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="lib_passed"><b> -------- 2023/05/07 - 22:46:22 : Test Library 'homepage.click_btn_export_csv' run passed</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="start_lib"><b> -------- 2023/05/07 - 22:46:22 : Starting test library core.check file exist('Timeout')</b></span></td></tr>
+
+<tr><td COLSPAN=3><span class="start_act"><b> ------ ------ 2023/05/07 - 22:46:22 : Start action - checkfileexists -</b></span></td></tr>
+
+<tr><td COLSPAN=3><a href = "images\1683474383193.after.png"><span class="act_failed"><b> ------ ------ 2023/05/07 - 22:46:23 : Action 'checkfileexists' is not supported by Selenium runtime2</b></span></a></td></tr>
+
+<tr><td COLSPAN=3><span class="lib_failed"><b> -------- 2023/05/07 - 22:46:23 : Test Library  'core.check file exist' failed at Action 'checkfileexists'</b></span></td></tr>
+
+<tr><td><span class="test_failed"><b> FAILED </b></span></td>
+<td><span class="test_failed"><b> --- 2023/05/07 - 22:46:23 : Test case login.login successful to export csv failed : Test Library  'core.check file exist' failed at Action 'checkfileexists'</b></span>
+</br><a href = "images\1683474383193.after.png"> after failed </a></td></tr>
+<tr/>
+
+
+</table></center><center><h2> End 2023/05/07 - 22:46:23</h2></center>
+</center><center><h3> --- --- PASSED: 0 --- --- --- </h3></center>
+</center><center><h3> --- --- FAILED: 1 --- --- --- </h3></center>
+</center><center><h3> --- --- --- --- --- --- --- </h3></center>

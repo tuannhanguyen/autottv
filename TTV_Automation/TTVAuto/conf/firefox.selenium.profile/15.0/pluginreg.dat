@@ -1,0 +1,105 @@
+Generated File. Do not edit.
+
+[HEADER]
+Version|0.15|$
+Arch|x86-msvc|$
+
+[PLUGINS]
+npappdetector.dll|$
+C:\Users\duongphan\AppData\Local\Citrix\Plugins\79\npappdetector.dll|$
+1.0.0.79|$
+1355183911314|0|1|$
+Citrix Online App Detector Plugin|$
+Citrix Online Web Deployment Plugin 1.0.0.79|$
+1
+0|application/x-col-application-detector|Citrix Online App Detector Plugin|colappdetector|$
+npWatWeb.dll|$
+C:\Windows\system32\Wat\npWatWeb.dll|$
+7.1.7600.16395|$
+1351650366489|0|1|$
+Windows Activation Technologies Plugin for Mozilla|$
+Windows Activation Technologies|$
+1
+0|application/mozilla-wat-scriptable-plugin-11|Windows Activation Technologies|*|$
+NPSWF32_11_2_202_233.dll|$
+C:\Windows\SysWOW64\Macromed\Flash\NPSWF32_11_2_202_233.dll|$
+11.2.202.233|$
+1335333900564|0|1|$
+Shockwave Flash 11.2 r202|$
+Shockwave Flash|$
+2
+0|application/x-shockwave-flash|Adobe Flash movie|swf|$
+1|application/futuresplash|FutureSplash movie|spl|$
+npctrl.dll|$
+C:\Program Files (x86)\Microsoft Silverlight\5.1.10411.0\npctrl.dll|$
+5.1.10411.0|$
+1334081728000|0|1|$
+5.1.10411.0|$
+Silverlight Plug-In|$
+2
+0|application/x-silverlight|npctrl|scr|$
+1|application/x-silverlight-2|||$
+nppdf32.dll|$
+C:\Program Files (x86)\Adobe\Reader 10.0\Reader\AIR\nppdf32.dll|$
+10.1.3.23|$
+1333518834000|0|1|$
+Adobe PDF Plug-In For Firefox and Netscape 10.1.3|$
+Adobe Acrobat|$
+7
+0|application/pdf|Acrobat Portable Document Format|pdf|$
+1|application/vnd.adobe.pdfxml|Adobe PDF in XML Format|pdfxml|$
+2|application/vnd.adobe.x-mars|Adobe PDF in XML Format|mars|$
+3|application/vnd.fdf|Acrobat Forms Data Format|fdf|$
+4|application/vnd.adobe.xfdf|XML Version of Acrobat Forms Data Format|xfdf|$
+5|application/vnd.adobe.xdp+xml| Acrobat XML Data Package|xdp|$
+6|application/vnd.adobe.xfd+xml|Adobe FormFlow99 Data File|xfd|$
+npYState.dll|$
+C:\Program Files (x86)\Yahoo!\Shared\npYState.dll|$
+1.0.0.7|$
+1322064346000|0|1|$
+Yahoo Application State Plugin version 1.0.0.7|$
+Yahoo Application State Plugin|$
+1
+0|application/x-vnd.yahoo.applicationState|npYState|npYState|$
+NPWPIDetector.dll|$
+C:\Program Files\Microsoft\Web Platform Installer\NPWPIDetector.dll|$
+1.1.0.5|$
+1315474054000|0|1|$
+wpidetector|$
+WPI Detector 1.5|$
+1
+0|application/wpi-plugin|||$
+NPSPWRAP.DLL|$
+C:\PROGRA~2\MICROS~1\Office14\NPSPWRAP.DLL|$
+14.0.4761.1000|$
+1269436958000|0|1|$
+The plug-in allows you to open and edit files using Microsoft Office applications|$
+Microsoft Office 2010|$
+1
+0|application/x-sharepoint|SharePoint Plug-in for Firefox||$
+NPAUTHZ.DLL|$
+C:\PROGRA~2\MICROS~1\Office14\NPAUTHZ.DLL|$
+14.0.4730.1010|$
+1263048138000|0|1|$
+Office Authorization plug-in for NPAPI browsers|$
+Microsoft Office 2010|$
+1
+0|application/x-msoffice14|14.0.4730.1010|*|$
+nppdf32.dll|$
+C:\Program Files (x86)\Adobe\Reader 10.0\Reader\browser\nppdf32.dll|$
+10.1.3.23|$
+1333518836000|0|9|$
+Adobe PDF Plug-In For Firefox and Netscape 10.1.3|$
+Adobe Acrobat|$
+7
+0|application/pdf|Acrobat Portable Document Format|pdf|$
+1|application/vnd.adobe.pdfxml|Adobe PDF in XML Format|pdfxml|$
+2|application/vnd.adobe.x-mars|Adobe PDF in XML Format|mars|$
+3|application/vnd.fdf|Acrobat Forms Data Format|fdf|$
+4|application/vnd.adobe.xfdf|XML Version of Acrobat Forms Data Format|xfdf|$
+5|application/vnd.adobe.xdp+xml| Acrobat XML Data Package|xdp|$
+6|application/vnd.adobe.xfd+xml|Adobe FormFlow99 Data File|xfd|$
+
+[INVALID]
+C:\Program Files (x86)\Microsoft Silverlight\5.1.10411.0\npctrlui.dll|$
+1334081728000|$

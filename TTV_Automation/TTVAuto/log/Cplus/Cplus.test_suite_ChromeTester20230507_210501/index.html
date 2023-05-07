@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<HTML>
+<HEAD>
+<script type="text/javascript">
+  var QueryString = function () {
+  var query_string = {};
+  var query = window.location.search.substring(1);
+  var vars = query.split("&");
+  for (var i=0;i<vars.length;i++) {
+    var pair = vars[i].split("=");
+    	// If first entry with this name
+    if (typeof query_string[pair[0]] === "undefined") {
+      query_string[pair[0]] = pair[1];
+    	// If second entry with this name
+    } else if (typeof query_string[pair[0]] === "string") {
+      var arr = [ query_string[pair[0]], pair[1] ];
+      query_string[pair[0]] = arr;
+    	// If third or later entry with this name
+    } else {
+      query_string[pair[0]].push(pair[1]);
+    }
+  }
+    return query_string;
+} ();
+function LoadPage(){
+    document.getElementById('testresult').src = "./test_result.html#"+QueryString.name;
+    document.getElementById('content').src = "./simple_log.html#"+QueryString.name;
+}
+</script>
+<TITLE>Test Running Result</TITLE>
+</HEAD>
+<FRAMESET cols="20%,80%" title="" onLoad="LoadPage()">
+	<FRAME src="./test_result.html#" name="testresult" id="testresult" title="All test case result">
+	<FRAME src="./simple_log.html#" name="content" id="content" title="simple log" scrolling="yes"><NOFRAMES>
+<H2>Frame Alert</H2>
+<P>This document is designed to be viewed using the frames feature. If you see this message, you are using a non-frame-capable web client.<BR></NOFRAMES></FRAMESET></HTML>

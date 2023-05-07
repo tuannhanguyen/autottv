@@ -1,0 +1,8 @@
+#WebDriverManager Resolution Cache (relationship between browsers and drivers versions previously resolved)
+#Wed Apr 26 15:04:09 ICT 2023
+chrome111-ttl=11\:31\:16 01/04/2023 ICT
+chrome112-ttl=15\:04\:09 27/04/2023 ICT
+chrome=112
+chrome111=113.0.5672.24
+chrome112=112.0.5615.49
+chrome-ttl=16\:04\:09 26/04/2023 ICT

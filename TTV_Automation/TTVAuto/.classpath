@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/mssql/sqljdbc4.jar"/>
+	<classpathentry kind="lib" path="lib/mssql/sqljdbc.jar"/>
+	<classpathentry kind="lib" path="lib/javamail/dsn.jar"/>
+	<classpathentry kind="lib" path="lib/javamail/imap.jar"/>
+	<classpathentry kind="lib" path="lib/javamail/mailapi.jar"/>
+	<classpathentry kind="lib" path="lib/javamail/pop3.jar"/>
+	<classpathentry kind="lib" path="lib/javamail/smtp.jar"/>
+	<classpathentry kind="lib" path="lib/poi/poi-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="lib/poi/poi-ooxml-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="lib/poi/poi-ooxml-schemas-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="lib/poi/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="lib/poi/dom4j-1.6.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/mysql/mysql-connector-java-5.1.21-bin.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/TTVAutoTest"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/TTVAutoTestSelenium"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
